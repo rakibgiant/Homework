@@ -32,5 +32,6 @@ public class QuariGoodsPrice {
       System.out.println("Conteniue or not(y/n): ");
       chose2 = input.next().charAt(0);
     }
+    input.close();
   }
 }
